@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Roboto+Condensed:wght@700&display=swap'); </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Roboto+Condensed:wght@700&display=swap");
+    </style>
+    <script
+      src="https://kit.fontawesome.com/47c063a947.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Leader Board</title>
   </head>
@@ -18,12 +24,98 @@
         </div>
         <!-- nav right -->
         <ul class="header-items">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Works</a></li>
-            <img src="./images/icons/profile.png" alt="">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Works</a></li>
+          <img class="profile-image" src="./images/icons/profile.png" alt="" />
+          <i class="fa-solid fa-bars fa-2x"></i>
         </ul>
       </nav>
     </header>
+
+    <main>
+      <div class="top-player-blog-container">
+        <div class="top-player-container">
+          <h3 class="top-player-title">Top Player</h3>
+          <div class="players-container">
+            <div class="players">
+              <img src="./images/players/player-1.png" alt="" />
+              <p>John Smithe</p>
+            </div>
+            <div class="players">
+              <img src="./images/players/player-2.png" alt="" />
+              <p>Pro Rasel</p>
+            </div>
+            <div class="players">
+              <img src="./images/players/player-3.png" alt="" />
+              <p>Abu Sufian</p>
+            </div>
+            <div class="players">
+              <img src="./images/players/player-4.png" alt="" />
+              <p>Shajedul Karim</p>
+            </div>
+            <div class="players">
+              <img src="./images/players/player-5.png" alt="" />
+              <p>Maruf Ahmed</p>
+            </div>
+            <div class="players">
+              <img src="./images/players/player-6.png" alt="" />
+              <p>Mujahid</p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="top-blog-container">
+          <h3 class="top-blog-title">Top Blog</h3>
+          <div class="blog-container">
+            <div class="blogs">
+              <img src="./images/blogs/blog-1.png" alt="" />
+              <div class="inside-blog">
+                <p class="blog-title">13 of My Favorite UI/UX Goodies</p>
+                <p class="blog-writter">
+                  <span class="by">By</span
+                  ><span class="writter"> Danny Sapio</span>
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div class="blogs">
+              <img src="./images/blogs/blog-2.png" alt="" />
+              <div class="inside-blog">
+                <p class="blog-title">UI cheat sheet: list vs grids</p>
+                <p class="blog-writter">
+                  <span class="by">By</span
+                  ><span class="writter"> Tess Gadd</span>
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div class="blogs">
+              <img src="./images/blogs/blog-3.png" alt="" />
+              <div class="inside-blog">
+                <p class="blog-title">7 typography tips for interface design</p>
+                <p class="blog-writter">
+                  <span class="by">By</span
+                  ><span class="writter"> Jeremiah Lam</span>
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div class="blogs">
+              <img src="./images/blogs/blog-4.png" alt="" />
+              <div class="inside-blog">
+                <p class="blog-title">Your logo is copied</p>
+                <p class="blog-writter">
+                  <span class="by">By</span
+                  ><span class="writter"> Ferdinand Vogler</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
