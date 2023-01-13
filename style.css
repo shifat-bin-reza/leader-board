@@ -1,0 +1,68 @@
+/* common design */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F3F1FF;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* header design */
+header {
+    width: 100%;
+    background-color: #562EFF;
+    padding: 20px 285px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo > img {
+    height: 51px;
+    width: 40px;
+}
+
+.logo > h4 {
+    color: white;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* main design */
+main {
+    width: 100%;
+    padding: 20px 285px;
+}
+
+@media screen and (min-width: 1400px) {
+    nav {
+        width: 1240px;
+        margin: auto;
+    }
+}
